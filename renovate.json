@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "group:springBoot",
+    "group:springCloud"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["app.yaml$"],
+      "matchStrings": [
+        "spec:\n *name: (?<depName>.*?)\n *version: (?<currentValue>.*)\n"
+      ],
+      "datasourceTemplate": "helm"
+    }
+  ],
+  "labels": [
+    "bot"
+  ]
+}
