@@ -7,7 +7,7 @@
     {
       "fileMatch": ["app.yaml$"],
       "matchStrings": [
-        "renovate.tkp.hdi.dev\/catalog: (?<datasource>.*?) *name: (?<depName>.*?) *version: (?<currentValue>.*)"
+        "spec:\n *repository: (?<registryUrl>.*?)\n *name: (?<depName>.*?)\n *version: (?<currentValue>.*)\n"
       ],
       "datasourceTemplate": "helmv3"
     }
