@@ -9,7 +9,7 @@
       "matchStrings": [
         "spec:\n *repository: (?<registryUrl>.*?)\n *name: (?<depName>.*?)\n *version: (?<currentValue>.*)\n"
       ],
-      "datasourceTemplate": "helm"
+      "datasourceTemplate": "helmv3"
     }
   ],
   "labels": [
