@@ -13,7 +13,6 @@ spec:
     configMap:
       name: "x7jwz-cluster-values"
       namespace: "x7jwz"
-
   namespace: "argo-cd"
   kubeConfig:
     inCluster: false
