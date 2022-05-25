@@ -6,14 +6,15 @@ metadata:
   annotations:
     renovate.tkp.hdi.dev/catalog: "https://pg2000.github.io/tkp-app-catalog/"
 spec:
+  name: "kong-app"
+  version: "0.7.2"
   catalog: "hdi-catalog"
   config:
     configMap:
       name: "x7jwz-cluster-values"
       namespace: "x7jwz"
-  name: "kong-app"
+
   namespace: "kong"
-  version: "0.7.2"
   kubeConfig:
     inCluster: false
   userConfig:
