@@ -4,9 +4,8 @@ metadata:
   name: "my-kong"
   namespace: "x7jwz"
   annotations:
-    renovate.tkp.hdi.dev/catalog: "https://pg2000.github.io/tkp-app-catalog/"
+    renovate.tkp.hdi.dev/catalog: https://pg2000.github.io/tkp-app-catalog/
 spec:
-  repository: https://pg2000.github.io/tkp-app-catalog/
   name: argo-cd
   version: 4.3.1
   catalog: "hdi-catalog"
