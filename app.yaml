@@ -6,6 +6,7 @@ metadata:
   annotations:
     renovate.tkp.hdi.dev/catalog: "https://pg2000.github.io/tkp-app-catalog/"
 spec:
+  repository: https://pg2000.github.io/tkp-app-catalog/
   name: "kong-app"
   version: "0.7.2"
   catalog: "hdi-catalog"
