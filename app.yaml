@@ -7,7 +7,7 @@ metadata:
     renovate.tkp.hdi.dev/catalog: https://pg2000.github.io/tkp-app-catalog/
 spec:
   name: argo-cd
-  version: 4.2.9
+  version: 4.3.2
   catalog: "hdi-catalog"
   config:
     configMap:
